@@ -1,8 +1,8 @@
 package shapes
 
 import (
-	"Math"
 	"fmt"
+	"math"
 )
 
 type Circle struct {
@@ -14,5 +14,5 @@ func (c Circle) String() string {
 }
 
 func (c Circle) Area() float64 {
-	return Math.Pi * c.Radius * c.Radius
+	return math.Pi * c.Radius * c.Radius
 }
